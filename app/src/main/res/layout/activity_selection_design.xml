@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SelectionDesignActivity">
+
+    <TextView
+        android:id="@+id/tv_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/barvolume_design_xml"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="17sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgDesignXML"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/img_xml"
+        />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:visibility="visible"
+        android:background="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/tv_jetpack_compose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/barvolume_design_android_jetpack_compose"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="17sp"
+        />
+
+    <ImageView
+        android:id="@+id/img_jetpackcompose"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/img_jetpackcompose"
+        />
+
+</LinearLayout>
+</ScrollView>
